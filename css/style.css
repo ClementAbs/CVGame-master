@@ -1,0 +1,254 @@
+
+#ecran{
+	background-image:url(../img/background.png); /*On définit le chemin de l'image avec la commande background-image */
+	position: fixed; /*On définit la position de l'image en relative */
+	width: 100%;	/*On définit la largeur de la balise ecran*/
+	height: 100%;	/*On définit la hauteur de la balise ecran*/
+	margin: 0 auto; /*On définit la balise ecran en 0 auto pour centrer l'image*/
+	z-index: 1;	/*On applique l'image au premier plan*/
+}
+
+#instructions{
+	background-image:url(../img/Instructions/instructions.png); /*On définit le chemin de l'image avec la commande background-image */
+	position: relative; /*On définit la position de l'image en relative */
+	width: 1500px;	/*On définit la largeur de la balise ecran*/
+	height: 750px;	/*On définit la hauteur de la balise ecran*/
+	margin: 0 auto; /*On définit la balise ecran en 0 auto pour centrer l'image*/
+	z-index: 3;	/*On applique l'image au premier plan*/
+}
+
+
+body{
+
+	background-image: url(../img/fond.jpg);
+	width: 100%;	/*On définit la largeur de la balise ecran*/
+	height: 100%;	/*On définit la hauteur de la balise ecran*/
+	background-repeat: no-repeat; /* On ne répète pas le contenu de l'image de fond*/
+	background-size: cover; /* Le fond d'écran couvre tout le body*/
+	z-index: -2; 		/*On applique l'image en arrière plan*/
+}
+
+#bulle{
+
+	background-image: url(../img/bulle.png);  /*De même*/
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 0%;
+	left: 0%;
+	background-repeat: no-repeat;
+	z-index: -1; 	
+	/*transform:scaleX(-1);*/
+
+}
+
+
+#cv{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 15%;
+	left: 10%;
+	background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+#spritefinal{
+
+	background-image:url(../img/spritefinal.png);  /*De même*/
+	position: absolute;
+	width: 75.4px;
+	height: 100px;
+	top: 592px;
+	left: 15%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+
+
+}
+
+
+
+
+#playbutton{
+
+	background-image:url(../img/play.png);  /*De même*/
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 30%;
+	left: 50%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 4;
+
+
+}
+
+
+
+#maBarredeVie{
+
+											/*De même*/
+	background: rgba(255, 255, 255, 0);
+	position: absolute;
+	display: inline-block;
+	border: 2px solid aliceblue;
+	border-radius: 15px;
+	width: 100%;
+	height: 20px;
+	top: -24%;
+	left: 0%;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+
+} 
+
+
+
+
+
+
+#coin{
+	background-image:url(../img/coin.png);  /*De même*/
+	position: absolute;
+	width: 86.33px;
+	height: 88px;
+	top: 592px;
+	left:25%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+
+}
+
+
+#coin2{
+	background-image:url(../img/coin.png);  /*De même*/
+	position: absolute;
+	width: 86.33px;
+	height: 88px;
+	top: 592px;
+	left: 80%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+
+}
+
+
+#coin3{
+	background-image:url(../img/coin.png);  /*De même*/
+	position: absolute;
+	width: 86.33px;
+	height: 88px;
+	top: 592px;
+	left:90%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+
+}
+
+#coeur{
+
+	background-image:url(../img/coeur.png);  /*De même*/
+	position: absolute;
+	width: 20%;
+	height:30%;
+	top: 500px;
+	left: 65%;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 2;
+
+
+}
+
+
+
+
+
+
+
+#imageangular{
+	background-image:url(../img/angular.png);  /*De même*/
+	position: absolute;
+	width: 300px;
+	height: 300px;	
+	top: 392px;
+	left: 30%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+	
+	
+}
+
+
+
+#imagejquery{
+	background-image:url(../img/jquery-sprite.png);  /*De même*/
+	position: absolute;
+	width: 300px;
+	height: 300px;	
+	top: 392px;
+	left: 70%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+	
+	
+}
+
+
+
+#nodejs {
+
+
+	background-image:url(../img/nodejs-sprite.png);  /*De même*/
+	position: absolute;
+	width: 300px;
+	height: 300px;	
+	top: 392px;
+	left: 40%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+	
+
+
+}
+
+#imagehtmlcssjs{
+
+	background-image:url(../img/html-css-sprite.png);  /*De même*/
+	position: absolute;
+	width: 300px;
+	height: 300px;	
+	top: 392px;
+	left: 10%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;  
+	z-index: 1;
+
+
+
+
+
+
+
+}
+
+
